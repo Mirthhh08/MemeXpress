@@ -1,6 +1,6 @@
 # 🗿MemeXpress
 
-MemeXpress is a fun and entertaining tool that generates random meme images for you to enjoy. MemeXpress WebApp that access images from the Image Flip Database API, not only can you view random memes, but you can also add your own touch of humor by overlaying custom text on the images.
+MemeXpress is a fun and entertaining tool that generates random meme images for you to enjoy. MemeXpress WebApp that access images from the Image Flip Database API, not only can you view random memes, but you can also add your own touch of humor by overlaying custom text on the images and download them.
 
 ## ⚒️ Built with:
 

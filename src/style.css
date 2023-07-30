@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+   
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Karla', sans-serif;
+
+    background-color: #3f164d;
+}
+
+section {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+
+    padding: .1em;
+    background: linear-gradient(135deg, #711F8D 0%, #A818DA 100%);
+}
+
+.nav {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+
+}
+
+.nav--title {
+    color: #FFF;
+    font-size: 20.748px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.075px;
+    margin-left: .3em;
+    margin-right: auto;
+}
+
+
+.main {
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+}
+
+.main--input {
+    margin-top: 3em;
+    width: 90%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.main--input--2 {
+    margin-left: auto;
+}
+
+.input {
+    width: 220px;
+    height: 30px;
+}
+
+
+.main button {
+    width: 90%;
+    margin-top: 2em;
+    padding: .5em;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #711F8D 0%, #A818DA 100%);
+    color: #FFF;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+
+.main button:hover {
+
+    background: linear-gradient(135deg, #3f164d 0%, #6e0e8e 100%);
+}
+
+.main--image {
+    text-align: center;
+    margin-top: 2em;
+    position: relative;
+}
+
+.meme--image {
+
+    max-width: 100%;
+
+}
+
+.main--text-1 {
+    position: absolute;
+    top: 10px;
+    left: 35%;
+    color: #FFF;
+    font-size: 2em;
+    font-family: Impact;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    -webkit-text-stroke: 1px black;
+    text-transform: uppercase;
+
+}
+
+
+.main--text-2 {
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    color: #FFF;
+    font-size: 2em;
+    font-family: Impact;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    -webkit-text-stroke: 1px black;
+    text-transform: uppercase;
+}
+
+
+footer {
+    width: 100%;
+    color: #FFF;
+    line-height: normal;
+    letter-spacing: 1.075px;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #6b1a86 10%, #A818DA 100%);
+}
+
+
